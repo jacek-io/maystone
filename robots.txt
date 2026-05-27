@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /maystone-generator.html
+
+Sitemap: https://maystone.pl/sitemap.xml

@@ -1,0 +1,101 @@
+[
+  {
+    "slug": "przytulnosc",
+    "name": "Przytulność",
+    "price": "od 189 zł",
+    "category": "naszyjniki",
+    "tag": "Naszyjnik",
+    "image": "Product_5_Image_1.jpg",
+    "desc": "Naszyjnik stworzony z myślą o chwili dla siebie. Kompozycja naturalnych kamieni, które często kojarzone są z łagodnością, harmonią i energią serca. Idealny wybór, jeśli czujesz potrzebę wyciszenia, złapania równowagi i otulenia się delikatną, kobiecą energią na co dzień. Kamienie: kwarc różowy, cytryn, akwamaryn, jaspis dalmatyński, awenturyn, perły słodkowodne. Wykończenie: stal chirurgiczna.",
+    "featured": true,
+    "order": 1
+  },
+  {
+    "slug": "radosc",
+    "name": "Radość",
+    "price": "od 189 zł",
+    "category": "naszyjniki",
+    "tag": "Naszyjnik",
+    "image": "Product_6_Image_1.jpg",
+    "desc": "Naszyjnik stworzony z myślą o lekkości i radości. Kolorowa kompozycja naturalnych kamieni uzupełniona ceramicznym muchomorkiem tworzy wyjątkowy, swobodny charakter. Kamienie te często kojarzone są z równowagą, energią i pozytywnym nastawieniem — idealny wybór, jeśli chcesz dodać swojej codzienności odrobiny koloru, luzu i dobrej energii. Kamienie: jadeit, chalcedon, cytryn, jaspis. Wykończenie: stal chirurgiczna.",
+    "featured": true,
+    "order": 2
+  },
+  {
+    "slug": "aurora",
+    "name": "Aurora",
+    "price": "od 129 zł",
+    "category": "bransoletki",
+    "tag": "Bransoletka",
+    "image": "product_7_image_1.jpg",
+    "desc": "Elegancka bransoletka stworzona z myślą o harmonii i wyrafinowanym uroku. Kompozycja naturalnych kamieni tworzy wyważone połączenie energii i piękna. Kamienie te często kojarzone są z równowagą, klarownością umysłu, pewnością siebie i spokojem — idealna dla kobiety świadomej siebie, która ceni elegancję, równowagę i wewnętrzną siłę. Kamienie: akwamaryn, kryształ górski, hematyt, lapis lazuli.",
+    "featured": true,
+    "order": 3
+  },
+  {
+    "slug": "subtelnosc",
+    "name": "Subtelność",
+    "price": "od 129 zł",
+    "category": "bransoletki",
+    "tag": "Bransoletka",
+    "image": "product_8_image_1.jpg",
+    "desc": "Delikatna bransoletka stworzona z myślą o codziennej harmonii i subtelnym wsparciu energii. Kompozycja użytych kamieni łączy ugruntowującą moc z lekkością i kobiecym wdziękiem. Kamienie te często kojarzone są z równowagą, spokojem, delikatnością i jasnością myśli — idealny wybór dla kobiety, która pragnie nosić przy sobie harmonię i poczucie wewnętrznego spokoju. Kamienie: hematyt, kwarc różowy, awenturyn, akwamaryn, kryształ górski.",
+    "featured": true,
+    "order": 4
+  },
+  {
+    "slug": "swiatlosc",
+    "name": "Światłość",
+    "price": "od 189 zł",
+    "category": "naszyjniki",
+    "tag": "Naszyjnik",
+    "image": "Product_1_Image_1.jpg",
+    "desc": "Naszyjnik stworzony z myślą o lekkości i harmonii w codzienności. Kompozycja użytych kamieni łączy energię światła, równowagi i subtelnej elegancji. Kamienie te często kojarzone są z pozytywną energią, klarownością umysłu i wewnętrzną równowagą — idealny wybór dla kobiety, która pragnie dodać sobie pewności siebie, radości i harmonii w codziennym życiu. Kamienie: cytryn, jaspis dalmatyński, kryształ górski. Wykończenie: stal chirurgiczna.",
+    "featured": true,
+    "order": 5
+  },
+  {
+    "slug": "ukojenie",
+    "name": "Ukojenie",
+    "price": "od 189 zł",
+    "category": "naszyjniki",
+    "tag": "Naszyjnik",
+    "image": "Product_2_Image_1.jpg",
+    "desc": "Naszyjnik stworzony z myślą o harmonii i subtelnej sile. Kompozycja naturalnego jadeitu, pereł słodkowodnych i hematytu łączy elegancję z ugruntowującą energią. Kamienie te często kojarzone są z równowagą, spokojem i poczuciem bezpieczeństwa — idealny wybór dla kobiety, która pragnie nosić przy sobie harmonię, pewność siebie i delikatną kobiecość. Kamienie: jadeit, hematyt, perły słodkowodne. Wykończenie: stal chirurgiczna.",
+    "featured": true,
+    "order": 6
+  },
+  {
+    "slug": "lumen-solitaire",
+    "name": "Lumen Solitaire",
+    "price": "od 189 zł",
+    "category": "naszyjniki",
+    "tag": "Naszyjnik",
+    "image": "Product_3_Image_1.jpg",
+    "desc": "Minimalistyczna bransoletka z kwarcu różowego i jadeitu.",
+    "featured": false,
+    "order": 7
+  },
+  {
+    "slug": "wesolosc",
+    "name": "Wesołość",
+    "price": "od 189 zł",
+    "category": "naszyjniki",
+    "tag": "Naszyjnik",
+    "image": "Product_4_Image_1.jpg",
+    "desc": "Choker stworzony z myślą o wyrazistej, radosnej energii. Kompozycja naturalnych kamieni uzupełniona elementami ceramicznymi tworzy wesołą, kolorową mozaikę pełną harmonii i pozytywnej energii. Kamienie te często kojarzone są z równowagą, jasnością myśli, radością i ugruntowaniem — idealny wybór dla kobiety, która pragnie dodać swojej codzienności koloru, lekkości i wyjątkowego charakteru. Kamienie: chalcedon, cytryn, agat, hematyt, perły słodkowodne, lapis lazuli, jadeit. Wykończenie: stal chirurgiczna.",
+    "featured": false,
+    "order": 8
+  },
+  {
+    "slug": "sila",
+    "name": "Siła",
+    "price": "129 zł",
+    "category": "dla-niego",
+    "tag": "Dla niego",
+    "image": "",
+    "desc": "Surowy, minimalistyczny naszyjnik z kamieni dla niego — tygrysie oko, onyks i hematyt.",
+    "featured": false,
+    "order": 9
+  }
+]
