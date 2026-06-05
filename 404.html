@@ -3,19 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Jak dobrać naszyjnik lub kolczyki do swoich rysów — maystone™</title>
-<link rel="canonical" href="https://maystone.pl/journal-dobieranie.html">
-<meta name="description" content="Długość łańcuszka, rozmiar kamieni, proporcje — proste zasady dobierania biżuterii.">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Jak dobrać naszyjnik lub kolczyki do swoich rysów — maystone™">
-<meta property="og:description" content="Długość łańcuszka, rozmiar kamieni, proporcje — proste zasady dobierania biżuterii.">
-<meta property="og:image" content="https://maystone.pl/Product_2_Image_1.jpg">
-<meta property="og:url" content="https://maystone.pl/journal-dobieranie.html">
-<meta property="og:site_name" content="maystone™">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Jak dobrać naszyjnik lub kolczyki do swoich rysów — maystone™">
-<meta name="twitter:description" content="Długość łańcuszka, rozmiar kamieni, proporcje — proste zasady dobierania biżuterii.">
-<meta name="twitter:image" content="https://maystone.pl/Product_2_Image_1.jpg">
+<title>Strona nie została znaleziona — maystone™</title>
+<meta name="robots" content="noindex">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="icon" type="image/png" href="favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
@@ -40,20 +29,18 @@ img { display: block; max-width: 100%; height: auto; }
 a { color: inherit; text-decoration: none; }
 button { font: inherit; cursor: pointer; border: none; background: none; }
 
-/* Marquee */
 .marquee { background: #ED835B; color: var(--white); overflow: hidden; padding: 8px 0; white-space: nowrap; }
 .marquee__track { display: inline-flex; gap: 48px; animation: marquee 30s linear infinite; }
 .marquee__item { font-size: 11px; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; opacity: 0.85; display: inline-flex; align-items: center; gap: 48px; }
-.marquee__item::after { content: '✦'; font-size: 8px; opacity: 0.4; }
+.marquee__item::after { content: '\2726'; font-size: 8px; opacity: 0.4; }
 @keyframes marquee { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
 
-/* Header */
 .header { position: sticky; top: 0; z-index: 150; background: rgba(255,255,255,0.92); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid var(--border); }
 .header__inner { display: flex; align-items: center; justify-content: space-between; height: 56px; padding: 0 var(--gutter); max-width: 1400px; margin: 0 auto; }
 .logo svg { height: 22px; width: auto; display: block; }
 .header__nav { display: none; gap: 28px; align-items: center; }
 .header__nav a { font-size: 12px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); transition: color var(--dur) var(--ease); }
-.header__nav a:hover, .header__nav a.is-current { color: var(--black); }
+.header__nav a:hover { color: var(--black); }
 .header__cta { display: none; font-size: 12px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; padding: 10px 24px; border-radius: 100px; background: var(--black); color: var(--white); transition: background var(--dur) var(--ease); }
 .header__cta:hover { background: var(--dark); }
 .hamburger { font-size: 13px; font-weight: 500; letter-spacing: 0.06em; padding: 8px 18px; border: 1.5px solid var(--border); border-radius: 100px; color: var(--black); background: var(--white); transition: all var(--dur) var(--ease); }
@@ -65,77 +52,23 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
 .mobile-nav a { font-size: 28px; font-weight: 300; color: var(--black); transition: color var(--dur) var(--ease); }
 .mobile-nav a:hover { color: var(--sage-text); }
 
-/* Buttons */
+.wrap { max-width: 1400px; margin: 0 auto; padding: 0 var(--gutter); }
 .btn { display: inline-flex; align-items: center; gap: 8px; font-size: 12px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; padding: 12px 28px; border-radius: 100px; transition: all var(--dur) var(--ease); white-space: nowrap; }
-.btn--white { background: var(--white); color: var(--black); }
-.btn--white:hover { background: var(--bg-alt); }
-.btn--ghost { background: transparent; color: var(--white); border: 1px solid rgba(255,255,255,0.4); }
-.btn--ghost:hover { background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.6); }
 .btn--dark { background: var(--black); color: var(--white); }
 .btn--dark:hover { background: var(--dark); }
 .btn--outline { background: transparent; color: var(--black); border: 1px solid var(--border); }
 .btn--outline:hover { border-color: var(--black); }
-.btn--sage { background: var(--sage-text); color: var(--white); }
-.btn--sage:hover { background: #2E5B50; }
 
-/* Sections */
-.section { padding: 80px 0; }
-.wrap { max-width: 1400px; margin: 0 auto; padding: 0 var(--gutter); }
-.section-header { display: grid; grid-template-columns: 1fr; gap: 16px; margin-bottom: 48px; }
-.section-header__title { font-size: clamp(28px, 4vw, 44px); font-weight: 300; line-height: 1.15; }
-.section-header__desc { font-size: 15px; font-weight: 300; color: var(--muted); line-height: 1.7; max-width: 440px; }
-.eyebrow { font-size: 11px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: var(--sage-text); margin-bottom: 8px; }
+.error-section { display: flex; align-items: center; justify-content: center; min-height: calc(100vh - 56px - 41px - 200px); padding: 80px 0; background: var(--bg-alt); text-align: center; }
+.error-section__code { font-size: clamp(64px, 15vw, 140px); font-weight: 300; line-height: 1; color: var(--border); margin-bottom: 16px; }
+.error-section__title { font-size: clamp(24px, 4vw, 36px); font-weight: 300; line-height: 1.2; margin-bottom: 12px; }
+.error-section__desc { font-size: 15px; font-weight: 300; color: var(--muted); line-height: 1.7; max-width: 440px; margin: 0 auto 32px; }
+.error-section__actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
 
-/* Page hero (for subpages) */
-.page-hero { padding: 120px 0 60px; background: var(--bg-alt); }
-.page-hero__eyebrow { margin-bottom: 12px; }
-.page-hero__title { font-size: clamp(32px, 5vw, 56px); font-weight: 300; line-height: 1.1; margin-bottom: 16px; }
-.page-hero__desc { font-size: 16px; font-weight: 300; color: var(--body); line-height: 1.7; max-width: 560px; }
-
-/* Forms */
-.form-grid { display: grid; grid-template-columns: 1fr; gap: 20px; }
-.form-field {}
-.form-field label { display: block; font-size: 12px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
-.form-field input, .form-field textarea, .form-field select {
-  width: 100%; padding: 14px 18px; font-family: var(--font); font-size: 15px; font-weight: 300;
-  border: 1px solid var(--border); border-radius: 12px; background: var(--white);
-  color: var(--dark); outline: none; transition: border-color var(--dur) var(--ease);
-}
-.form-field input:focus, .form-field textarea:focus, .form-field select:focus { border-color: var(--sage-text); }
-.form-field textarea { resize: vertical; min-height: 120px; }
-.form-field select { appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23736F6B' stroke-width='1.5' fill='none'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 16px center; padding-right: 40px; }
-.form-field--half { grid-column: span 1; }
-
-/* Product cards */
-.products-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-.product-card { background: var(--white); border-radius: 16px; overflow: hidden; transition: box-shadow var(--dur) var(--ease), transform var(--dur) var(--ease); display: block; }
-.product-card:hover { box-shadow: 0 8px 32px rgba(0,0,0,0.06); transform: translateY(-2px); }
-.product-card__img { aspect-ratio: 4/3; overflow: hidden; position: relative; }
-.product-card__img img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s var(--ease); }
-.product-card:hover .product-card__img img { transform: scale(1.04); }
-.product-card__tag { position: absolute; top: 12px; right: 12px; font-size: 10px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; padding: 4px 10px; background: rgba(255,255,255,0.85); backdrop-filter: blur(8px); border-radius: 100px; color: var(--muted); }
-.product-card__body { padding: 16px; }
-.product-card__name { font-size: 14px; font-weight: 400; margin-bottom: 4px; color: var(--black); }
-.product-card__price { font-size: 13px; font-weight: 300; color: var(--muted); }
-
-/* Filter tabs */
-.filter-tabs { display: flex; gap: 8px; margin-bottom: 32px; flex-wrap: wrap; }
-.filter-tab { font-size: 12px; font-weight: 400; letter-spacing: 0.04em; padding: 8px 18px; border-radius: 100px; background: transparent; color: var(--muted); border: 1px solid var(--border); transition: all var(--dur) var(--ease); cursor: pointer; }
-.filter-tab.is-active, .filter-tab:hover { background: var(--black); color: var(--white); border-color: var(--black); }
-.filter-tab__count { font-size: 10px; opacity: 0.6; margin-left: 4px; }
-
-/* Contact socials */
-.contact__socials { display: flex; gap: 12px; margin-top: 24px; align-items: center; }
-.contact__social { width: 44px; height: 44px; border-radius: 50%; background: var(--black); color: var(--white); position: relative; transition: background var(--dur) var(--ease); flex-shrink: 0; display: block; }
-.contact__social:hover { background: var(--dark); }
-.contact__social svg { width: 20px; height: 20px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
-
-/* Footer */
 .footer { background: var(--footer-bg); color: var(--footer-text); padding: 64px 0 32px; }
 .footer__top { display: grid; grid-template-columns: 1fr; gap: 40px; padding-bottom: 48px; border-bottom: 1px solid rgba(255,255,255,0.08); }
 .footer__brand { max-width: 280px; }
 .footer__logo svg { height: 22px; width: auto; margin-bottom: 16px; }
-.footer__brand p { font-size: 13px; font-weight: 300; color: var(--footer-muted); line-height: 1.6; }
 .footer__brand-details { margin-top: 16px; font-size: 13px; font-weight: 300; color: var(--footer-muted); line-height: 1.8; }
 .footer__cols { display: flex; gap: 48px; flex-wrap: wrap; }
 .footer__col-title { font-size: 11px; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: var(--footer-muted); margin-bottom: 16px; }
@@ -146,12 +79,8 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
 .footer__bottom-row a, .footer__bottom-row span { font-size: 12px; font-weight: 300; color: var(--footer-muted); transition: color var(--dur) var(--ease); }
 .footer__bottom-row a:hover { color: var(--footer-text); }
 
-/* Responsive */
 @media (min-width: 640px) {
   :root { --gutter: 32px; }
-  .products-grid { grid-template-columns: repeat(3, 1fr); gap: 16px; }
-  .form-grid { grid-template-columns: 1fr 1fr; }
-  .form-field--full { grid-column: 1 / -1; }
 }
 @media (min-width: 960px) {
   :root { --gutter: 48px; }
@@ -160,78 +89,11 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
   .header__nav { display: flex; }
   .header__cta { display: inline-flex; }
   .hamburger { display: none; }
-  .section { padding: 100px 0; }
-  .section-header { grid-template-columns: 1fr 1fr; gap: 40px; align-items: end; }
-  .page-hero { padding: 140px 0 80px; }
-  .products-grid { gap: 20px; }
   .footer__top { grid-template-columns: 1fr 2fr; gap: 60px; }
   .footer__bottom { flex-direction: row; justify-content: space-between; }
 }
 @media (min-width: 1200px) { :root { --gutter: 64px; } }
-
-.contact-form-section { padding: 0 0 100px; background: var(--bg-alt); }
-.contact-layout { display: grid; grid-template-columns: 1fr; gap: 48px; }
-.contact-info { padding-top: 20px; }
-.contact-info__phone { font-size: clamp(22px, 4vw, 32px); font-weight: 300; margin-bottom: 6px; display: block; }
-.contact-info__email { font-size: clamp(22px, 4vw, 32px); font-weight: 300; margin-bottom: 24px; display: block; }
-.contact-info__phone:hover, .contact-info__email:hover { color: var(--sage-text); }
-.contact-info__details { margin-top: 32px; }
-.contact-info__label { font-size: 11px; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
-.contact-info__text { font-size: 14px; font-weight: 300; color: var(--body); line-height: 1.7; margin-bottom: 24px; }
-.form-card { background: var(--white); border-radius: 20px; padding: 32px 24px; }
-.form-card__title { font-size: 20px; font-weight: 400; margin-bottom: 6px; }
-.form-card__desc { font-size: 14px; font-weight: 300; color: var(--muted); margin-bottom: 28px; line-height: 1.6; }
-.form-submit { margin-top: 8px; }
-.form-success { display: none; text-align: center; padding: 48px 24px; }
-.form-success.is-visible { display: block; }
-.form-success__icon { font-size: 48px; margin-bottom: 16px; }
-.form-success__title { font-size: 22px; font-weight: 400; margin-bottom: 8px; }
-.form-success__text { font-size: 14px; font-weight: 300; color: var(--muted); }
-@media (min-width: 960px) {
-  .contact-layout { grid-template-columns: 1fr 1.2fr; gap: 80px; }
-  .form-card { padding: 40px 36px; }
-}
-
-/* ═══ SCROLL ANIMATIONS ═══ */
-[data-anim] { opacity: 0; transform: translateY(32px); transition: opacity 0.8s cubic-bezier(0.23,1,0.32,1), transform 0.8s cubic-bezier(0.23,1,0.32,1); }
-[data-anim="fade"] { transform: translateY(0); }
-[data-anim="scale"] { transform: scale(0.96); }
-[data-anim].is-visible { opacity: 1; transform: translateY(0) scale(1); }
-[data-anim-delay="1"] { transition-delay: 0.1s; }
-[data-anim-delay="2"] { transition-delay: 0.2s; }
-[data-anim-delay="3"] { transition-delay: 0.3s; }
-[data-anim-delay="4"] { transition-delay: 0.4s; }
-[data-anim-delay="5"] { transition-delay: 0.5s; }
-[data-anim-delay="6"] { transition-delay: 0.6s; }
-[data-anim-delay="7"] { transition-delay: 0.7s; }
-[data-anim-delay="8"] { transition-delay: 0.8s; }
-/* Hero specific */
-.hero [data-anim] { opacity: 0; transform: translateY(24px); }
-.hero [data-anim].is-visible { opacity: 1; transform: translateY(0); }
-.hero .hero__label[data-anim].is-visible { transition-delay: 0.3s; }
-.hero .hero__title[data-anim].is-visible { transition-delay: 0.5s; }
-.hero .hero__desc[data-anim].is-visible { transition-delay: 0.7s; }
-.hero .hero__actions[data-anim].is-visible { transition-delay: 0.9s; }
-.hero .hero__thumbs[data-anim].is-visible { transition-delay: 1.1s; }
-/* Page hero */
-.page-hero [data-anim] { opacity: 0; transform: translateY(20px); }
-.page-hero [data-anim].is-visible { opacity: 1; transform: translateY(0); }
-.page-hero .eyebrow[data-anim].is-visible { transition-delay: 0.2s; }
-.page-hero .page-hero__title[data-anim].is-visible { transition-delay: 0.4s; }
-.page-hero .page-hero__desc[data-anim].is-visible { transition-delay: 0.6s; }
-/* Image reveal */
-[data-anim="img-reveal"] { opacity: 0; transform: scale(1.04); transition: opacity 1s cubic-bezier(0.23,1,0.32,1), transform 1.2s cubic-bezier(0.23,1,0.32,1); }
-[data-anim="img-reveal"].is-visible { opacity: 1; transform: scale(1); }
 </style>
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"LocalBusiness","name":"maystone™","description":"Ręcznie robiona biżuteria z kamieni naturalnych. Każdy element tworzony indywidualnie z intencją.","url":"https://maystone.pl","telephone":"+48513849144","email":"czesc@maystone.pl","address":{"@type":"PostalAddress","addressLocality":"Gdynia","addressCountry":"PL"},"priceRange":"109-199 zł","image":"https://maystone.pl/Product_2_Image_1.jpg","sameAs":["https://www.instagram.com/may_stone_/","https://www.facebook.com/maystone.pl/","https://www.tiktok.com/@may_stone_"]}
-</script>
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Article","headline":"Jak dobrać naszyjnik lub kolczyki do swoich rysów","description":"Zasady dobierania biżuterii do kształtu twarzy i sylwetki.","image":"https://maystone.pl/maystone_kamienie.jpg","author":{"@type":"Person","name":"Maja"},"publisher":{"@type":"Organization","name":"maystone™","url":"https://maystone.pl"},"datePublished":"2026-03-01","mainEntityOfPage":"https://maystone.pl/journal-dobieranie.html"}
-</script>
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Strona główna","item":"https://maystone.pl/"},{"@type":"ListItem","position":2,"name":"Journal","item":"https://maystone.pl/journal.html"},{"@type":"ListItem","position":3,"name":"Jak dobrać naszyjnik lub kolczyki do swoich rysów","item":"https://maystone.pl/journal-dobieranie.html"}]}
-</script>
 </head>
 <body>
 <div class="marquee" aria-hidden="true">
@@ -252,7 +114,7 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
     <nav class="header__nav">
       <a href="katalog.html">Kolekcja</a>
       <a href="/#intencje">Intencje</a>
-      <a href="journal.html" class="is-current">Journal</a>
+      <a href="journal.html">Journal</a>
       <a href="kontakt.html">Kontakt</a>
     </nav>
     <a href="kontakt.html" class="header__cta">Złóż zamówienie</a>
@@ -263,54 +125,22 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
   <a href="/">Strona główna</a>
   <a href="katalog.html">Kolekcja</a>
   <a href="/#intencje">Intencje</a>
-  <a href="journal.html" class="is-current">Journal</a>
+  <a href="journal.html">Journal</a>
   <a href="kontakt.html">Kontakt</a>
 </nav>
 
-<section class="page-hero" style="background: var(--bg-alt);">
+<section class="error-section">
   <div class="wrap">
-    <a href="journal.html" class="product-back" data-anim>← Wróć do journala</a>
-    <p class="eyebrow page-hero__eyebrow" data-anim>Poradnik</p>
-    <h1 class="page-hero__title" data-anim data-anim-delay="1">Jak dobrać naszyjnik lub kolczyki do swoich rysów</h1>
-    <p class="page-hero__desc" data-anim data-anim-delay="2">Długość łańcuszka, rozmiar kamieni, proporcje — proste zasady dobierania biżuterii.</p>
+    <p class="error-section__code">404</p>
+    <h1 class="error-section__title">Strona nie została znaleziona</h1>
+    <p class="error-section__desc">Przepraszamy, ale strona, której szukasz, nie istnieje lub została przeniesiona. Sprawdź adres lub wróć na stronę główną.</p>
+    <div class="error-section__actions">
+      <a href="/" class="btn btn--dark">Strona główna</a>
+      <a href="katalog.html" class="btn btn--outline">Zobacz kolekcję</a>
+    </div>
   </div>
 </section>
 
-<section class="section">
-  <div class="wrap" style="max-width:800px;">
-    <article data-anim>
-      <img src="maystone_kamienie.jpg" alt="Jak dobrać naszyjnik lub kolczyki do swoich rysów" style="width:100%;border-radius:16px;margin-bottom:40px;" loading="lazy">
-
-
-      <p style="font-size:16px;font-weight:300;color:var(--body);line-height:1.8;margin-bottom:24px;">Biżuteria to nie tylko kwestia gustu — to też proporcje. Dobrze dobrany naszyjnik potrafi optycznie wydłużyć szyję, a kolczyki podkreślić rysy twarzy. Oto kilka prostych zasad.</p>
-
-      <h2 style="font-size:22px;font-weight:400;margin:40px 0 16px;">Długość naszyjnika</h2>
-
-      <p style="font-size:16px;font-weight:300;color:var(--body);line-height:1.8;margin-bottom:24px;"><strong style="font-weight:500;">Choker (35-40 cm)</strong> — przyciąga uwagę do szyi. Najlepiej wygląda na długiej, szczupłej szyi. Idealny do dekoltu w łódkę.</p>
-
-      <p style="font-size:16px;font-weight:300;color:var(--body);line-height:1.8;margin-bottom:24px;"><strong style="font-weight:500;">Princess (45 cm)</strong> — najbardziej uniwersalna długość. Pasuje do prawie każdego dekoltu i kształtu twarzy.</p>
-
-      <p style="font-size:16px;font-weight:300;color:var(--body);line-height:1.8;margin-bottom:24px;"><strong style="font-weight:500;">Matinée (50-60 cm)</strong> — wydłuża sylwetkę. Świetna do bluzek zapiętych pod szyję i golfów.</p>
-
-      <h2 style="font-size:22px;font-weight:400;margin:40px 0 16px;">Kształt twarzy</h2>
-
-      <p style="font-size:16px;font-weight:300;color:var(--body);line-height:1.8;margin-bottom:24px;"><strong style="font-weight:500;">Twarz okrągła</strong> — wybierz dłuższe naszyjniki (V-shape) i kolczyki wiszące. Optycznie wydłużą rysy.</p>
-
-      <p style="font-size:16px;font-weight:300;color:var(--body);line-height:1.8;margin-bottom:24px;"><strong style="font-weight:500;">Twarz owalna</strong> — pasuje Ci praktycznie wszystko! Eksperymentuj swobodnie.</p>
-
-      <p style="font-size:16px;font-weight:300;color:var(--body);line-height:1.8;margin-bottom:24px;"><strong style="font-weight:500;">Twarz kwadratowa</strong> — obłe, miękkie formy kamieni złagodzą rysy. Unikaj dużych, geometrycznych kształtów.</p>
-
-      <h2 style="font-size:22px;font-weight:400;margin:40px 0 16px;">Rozmiar kamieni</h2>
-
-      <p style="font-size:16px;font-weight:300;color:var(--body);line-height:1.8;margin-bottom:24px;">Drobne kamienie (4-6 mm) tworzą delikatny, codzienny look. Większe (8-12 mm) to wyraźniejszy statement. Miks rozmiarów — jak w naszych naszyjnikach — dodaje dynamiki i głębi.</p>
-
-      <div style="margin-top:48px;padding:32px;background:var(--bg-alt);border-radius:16px;text-align:center;">
-        <p style="font-size:15px;font-weight:300;color:var(--body);margin-bottom:16px;">Chcesz dobrać biżuterię do siebie?</p>
-        <a href="kontakt.html" class="btn btn--dark">Złóż zamówienie →</a>
-      </div>
-    </article>
-  </div>
-</section>
 <footer class="footer">
   <div class="wrap">
     <div class="footer__top">
@@ -320,7 +150,7 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
       </div>
       <div class="footer__cols">
         <div class="footer__col">
-          <p class="footer__col-title">Śledź nas</p>
+          <p class="footer__col-title">Sledź nas</p>
           <a href="https://www.instagram.com/may_stone_/" target="_blank" rel="noopener">Instagram</a>
           <a href="https://www.facebook.com/maystone.pl/" target="_blank" rel="noopener">Facebook</a>
           <a href="https://www.tiktok.com/@may_stone_" target="_blank" rel="noopener">TikTok</a>
@@ -347,36 +177,8 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
       </div>
     </div>
   </div>
-</footer><script>(function(){var b=document.querySelector(".hamburger"),n=document.getElementById("mobile-nav"),c=document.querySelector(".mobile-nav__close");function close(){b.setAttribute("aria-expanded","false");n.classList.remove("is-open");document.body.style.overflow=""}if(b&&n){b.onclick=function(){var o=b.getAttribute("aria-expanded")==="true";b.setAttribute("aria-expanded",!o);n.classList.toggle("is-open",!o);document.body.style.overflow=o?"":"hidden"};if(c)c.onclick=close;n.querySelectorAll("a").forEach(function(a){a.onclick=close})}})()</script><script>(function(){var o=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting)e.target.classList.add("is-visible")})},{threshold:0.08,rootMargin:"0px 0px -40px 0px"});document.querySelectorAll("[data-anim]").forEach(function(el){o.observe(el)});setTimeout(function(){document.querySelectorAll(".hero [data-anim], .page-hero [data-anim]").forEach(function(el){el.classList.add("is-visible")})},100)})()</script>
-
-<script>
-(function(){
-  var form = document.getElementById('order-form');
-  if(!form) return;
-  form.addEventListener('submit', function(e){
-    e.preventDefault();
-    var btn = form.querySelector('button[type="submit"]');
-    var origText = btn.textContent;
-    btn.textContent = 'Wysyłanie...';
-    btn.disabled = true;
-    fetch('https://formspree.io/f/meerqdbn', {
-      method: 'POST',
-      body: (function(){ var d = new FormData(form); d.append('_subject', 'Nowe zamówienie z maystone.pl'); return d; })(),
-      headers: { 'Accept': 'application/json' }
-    }).then(function(r){
-      if(r.ok){
-        document.getElementById('form-card').innerHTML = '<div style="text-align:center;padding:60px 24px;"><p style="font-size:48px;margin-bottom:16px;">✦</p><h3 style="font-size:22px;font-weight:400;margin-bottom:8px;">Dziękujemy!</h3><p style="font-size:14px;font-weight:300;color:#736F6B;line-height:1.6;">Odezwiemy się w ciągu 24 godzin<br>z propozycją kamieni i formy.</p></div>';
-      } else {
-        btn.textContent = 'Błąd — spróbuj ponownie';
-        btn.disabled = false;
-      }
-    }).catch(function(){
-      btn.textContent = 'Błąd — spróbuj ponownie';
-      btn.disabled = false;
-    });
-  });
-})();
-</script>
+</footer>
+<script>(function(){var b=document.querySelector(".hamburger"),n=document.getElementById("mobile-nav"),c=document.querySelector(".mobile-nav__close");function close(){b.setAttribute("aria-expanded","false");n.classList.remove("is-open");document.body.style.overflow=""}if(b&&n){b.onclick=function(){var o=b.getAttribute("aria-expanded")==="true";b.setAttribute("aria-expanded",!o);n.classList.toggle("is-open",!o);document.body.style.overflow=o?"":"hidden"};if(c)c.onclick=close;n.querySelectorAll("a").forEach(function(a){a.onclick=close})}})()</script>
 <script>
 (function(){
   var u='czesc',d='maystone.pl',e=u+'@'+d;
@@ -386,4 +188,5 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
   });
 })();
 </script>
-</body></html>
+</body>
+</html>
